@@ -12,12 +12,9 @@ print(data)
 # and values (the rest of the information)
 '''
 
-
 import requests  # requests library to handle http requests
 url =" https://www.gov.uk/bank-holidays.json" 
 response = requests.get(url) # name the request function as response
 data = response.json() # define database using json
 print(data['northern-ireland']['events'][0])  # modify to output the first event only in 
 # northern-ireland (index 0)
-
-
