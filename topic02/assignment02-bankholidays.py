@@ -1,7 +1,7 @@
 # Thiis program prints out the bank holidays in Northern Ireland
 # Author: Orla Woods
 
-# Import mlibrary
+# Import library
 import requests  # requests library to handle http requests
 
 # Import data 
